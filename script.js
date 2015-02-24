@@ -45,7 +45,7 @@ function pomocount () {
       audio.play();
       pomorate();
       pomodone();
-      $('#donenow').hide();
+      $('#done').hide();
     }
     var secs = timeLeft / 1000;
     var sec = "0"+(secs % 60);
