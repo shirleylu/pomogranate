@@ -4,6 +4,13 @@ body {
   font-family: 'Roboto Slab';
 }
 
+h1 {
+  margin:0;
+  padding:0;
+  font-size: 27px;
+  text-align: center;
+}
+
 .wrapper {
   width: 800px;
   margin-left: auto;
@@ -46,7 +53,7 @@ a:active {color:black;}
 }
 
 #timerwr {
-  height: 540px;
+  height: 520px;
   background-color: #ff3652;
   margin-bottom: 20px;
 }
@@ -54,11 +61,11 @@ a:active {color:black;}
 #timer {
   position: relative;
   top: 50%;
-  transform: translateY(-60%);
+  transform: translateY(-65%);
   text-align: center;
   font-size: 250px;
   color: white;
-  height: 415px;
+  height: 390px;
 }
 
 #done {
