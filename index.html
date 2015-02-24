@@ -6,9 +6,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="googleform.js"></script>
   </head>
   
   <body>
+    <img src='media/logo.png' hidden/>
     <div id='timerwr'>
       <p id='what'><a href="#" onclick="$('#about').show(); $('#what').hide();">What is pomogranate?</a></p>
       <div id='about'>
@@ -18,6 +20,9 @@
       <a href="#" onclick="$('#about').hide(); $('#what').show();">hide</a>
       </div>
       <div id='timer'>25:00</div>
+      <div id='done'>
+        <button id='donenow' onclick='$(this).hide(); clearInterval(timer); pomorate(); pomodone();'>Done!</button>
+      </div>
     </div>
     
     <div id='pomo' class='wrapper'>
@@ -25,10 +30,6 @@
       <div id='newpomo'>
       </div>
       <div id='compomo'>
-        <div class='pom'>
-          <span class='pomos left'>Watch Covert Affairs</span>
-          <span class='pomorates right'><img class='seed' src='media/badseed.png'/><img class='seed' src='media/badseed.png'/><img class='seed' src='media/badseed.png'/><img class='seed' src='media/badseed.png'/><img class='seed' src='media/badseed.png'/></span>
-        </div>
       </div>
     </div>
   </body>
