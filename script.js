@@ -35,8 +35,8 @@ function pomorate() {
 }
 
 function pomocount () {
-//  var time = 1499000;
-  var time = 1000;
+  var time = 1500000;
+//  var time = 1000;
   timeLeft = time;
   timer = setInterval(function() {
     if (timeLeft == 0){
@@ -56,7 +56,7 @@ function pomocount () {
 }
 
 function pomodone () {
-  var time = 10000;
+  var time = 300000;
   timeLeft += time;
   timer = setInterval(function() {
     if (timeLeft == 0){
